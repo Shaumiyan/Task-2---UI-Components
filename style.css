@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+h1, h2 {
+  margin-bottom: 10px;
+}
+.component-section {
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.btn-primary {
+  background-color: #007bff;
+}
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 300px;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeaea;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Forms */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Badges */
+.badge {
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  margin-right: 10px;
+}
+.badge-success {
+  background-color: green;
+}
+.badge-error {
+  background-color: red;
+}
+.badge-info {
+  background-color: blue;
+}
